@@ -7,7 +7,8 @@ python CocoToSTPhoto.py "d:/instances/instances_val2018.json" "c:/annotation/stp
                                input file or folder                   output file          image folder
 </pre></code>
 # HOW TO INSTALL
-<pre><code>pip install matplotlib scikit-image numpy exifread piexif pillow
+<pre><code>#NEED Python 3.6
+pip install matplotlib scikit-image numpy exifread piexif pillow
 </pre></code>
 Copyright ⓒ2019 KSNU Info Lab.
   
