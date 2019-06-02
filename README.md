@@ -1,14 +1,19 @@
 # CocoToSTPhoto
-COCO DataSet instances to STPhoto
+ - COCO DataSet instances to STPhoto
+  - Copyright (c) 2019 [InfoLab](http://infolab.kunsan.ac.kr) ([Donggun LEE](http://duration.digimoon.net))
+   - https://pypi.org/project/cocotostphoto/
+
 
 # HOW TO USE
-<pre><code>python CocoToSTPhoto.py "d:/instances" "c:/annotation/stphoto.json" "d:/images"
+```bash
+python CocoToSTPhoto.py "d:/instances" "c:/annotation/stphoto.json" "d:/images"
 python CocoToSTPhoto.py "d:/instances/instances_val2018.json" "c:/annotation/stphoto.json", "d:/images"
-                               input file or folder                   output file          image folder
-</pre></code>
+                               #input file or folder                   output file          image folder
+```
+
+
 # HOW TO INSTALL
-<pre><code>#NEED Python 3.6
-pip install matplotlib scikit-image numpy exifread piexif pillow
-</pre></code>
-Copyright ⓒ2019 KSNU Info Lab.
-  
+```bash
+#NEED Python 3.6
+pip install deepgeo, cocotostphoto
+```
